@@ -29,10 +29,15 @@ export class LocaleData {
   SE_accelerationDirection:string = null;
   SE_emitFrequency:string = null;
 
+  
   SP_startScale:string = null;
   SP_startScaleVariance:string = null;
   SP_endScale:string = null;
   SP_endScaleVariance:string = null;
+  SP_initialRotation:string = null;
+  SP_initialRotationVariance:string = null;
+  SP_initialRotationSpeed:string = null;
+  SP_initialRotationSpeedVariance:string = null;
   SP_lifeSpan:string = null;
   SP_lifeSpanVariance:string = null;
 

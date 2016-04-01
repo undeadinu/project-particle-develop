@@ -45,6 +45,10 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                     this.SP_startScaleVariance = null;
                     this.SP_endScale = null;
                     this.SP_endScaleVariance = null;
+                    this.SP_initialRotation = null;
+                    this.SP_initialRotationVariance = null;
+                    this.SP_initialRotationSpeed = null;
+                    this.SP_initialRotationSpeedVariance = null;
                     this.SP_lifeSpan = null;
                     this.SP_lifeSpanVariance = null;
                     this.SC_head_start = null;

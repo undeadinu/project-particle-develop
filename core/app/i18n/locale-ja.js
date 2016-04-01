@@ -44,6 +44,10 @@ System.register(["./locale-data"], function(exports_1, context_1) {
                     this.SP_startScaleVariance = "開始時のスケールのばらつき";
                     this.SP_endScale = "終了時のスケール";
                     this.SP_endScaleVariance = "終了時のスケールのばらつき";
+                    this.SP_initialRotation = "回転角度（度）";
+                    this.SP_initialRotationVariance = "回転角度のばらつき";
+                    this.SP_initialRotationSpeed = "回転スピード";
+                    this.SP_initialRotationSpeedVariance = "回転スピードのバラつき";
                     this.SP_lifeSpan = "ライフ (フレーム数)";
                     this.SP_lifeSpanVariance = "ライフのばらつき (フレーム数)";
                     this.SC_head_start = "開始色";

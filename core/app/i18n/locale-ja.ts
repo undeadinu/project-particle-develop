@@ -37,6 +37,12 @@ Particle Developは雪や炎などのパーティクル表現が作れるHTML5�
   SP_startScaleVariance:string = "開始時のスケールのばらつき";
   SP_endScale:string = "終了時のスケール";
   SP_endScaleVariance:string = "終了時のスケールのばらつき";
+
+  SP_initialRotation:string = "回転角度（度）";
+  SP_initialRotationVariance:string = "回転角度のばらつき";
+  SP_initialRotationSpeed:string = "回転スピード";
+  SP_initialRotationSpeedVariance:string = "回転スピードのバラつき";
+
   SP_lifeSpan:string = "ライフ (フレーム数)";
   SP_lifeSpanVariance:string = "ライフのばらつき (フレーム数)";
 

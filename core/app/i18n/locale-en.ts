@@ -35,6 +35,12 @@ export class LocaleEnData extends LocaleData {
   SP_startScaleVariance:string = "Start Size Variance";
   SP_endScale:string = "End Size";
   SP_endScaleVariance:string = "End Size Variance";
+
+  SP_initialRotation:string = "Start Rotation";
+  SP_initialRotationVariance:string = "Start Rotation Variance";
+  SP_initialRotationSpeed:string = "Rotation Speed";
+  SP_initialRotationSpeedVariance:string = "Rotation Speed Variance";
+
   SP_lifeSpan:string = "Lifespan (frame)";
   SP_lifeSpanVariance:string = "Lifespan Variance (frame)";
 

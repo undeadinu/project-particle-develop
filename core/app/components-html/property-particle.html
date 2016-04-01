@@ -37,6 +37,40 @@
             targetProperty="finishScaleVariance">
     </input-range>
 
+    <hr>
+
+    <input-range
+      class="input-range"
+      label="{{localeData.SP_initialRotation}}"
+      min="0.0" max="360.0" step="0.1"
+      [drawingData]="drawingData"
+      targetProperty="initialRotation">
+    </input-range>
+
+    <input-range
+      class="input-range"
+      label="{{localeData.SP_initialRotationVariance}}"
+      min="0.0" max="360.0" step="0.1"
+      [drawingData]="drawingData"
+      targetProperty="initialRotationVariance">
+    </input-range>
+
+    <input-range
+      class="input-range"
+      label="{{localeData.SP_initialRotationSpeed}}"
+      min="0.0" max="30.0" step="0.01"
+      [drawingData]="drawingData"
+      targetProperty="initialRotationSpeed">
+    </input-range>
+
+    <input-range
+      class="input-range"
+      label="{{localeData.SP_initialRotationSpeedVariance}}"
+      min="0.0" max="30.0" step="0.01"
+      [drawingData]="drawingData"
+      targetProperty="initialRotationSpeedVariance">
+    </input-range>
+
     <hr/>
 
     <input-range

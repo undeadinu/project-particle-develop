@@ -44,6 +44,10 @@ System.register(["./locale-data"], function(exports_1, context_1) {
                     this.SP_startScaleVariance = "Start Size Variance";
                     this.SP_endScale = "End Size";
                     this.SP_endScaleVariance = "End Size Variance";
+                    this.SP_initialRotation = "Start Rotation";
+                    this.SP_initialRotationVariance = "Start Rotation Variance";
+                    this.SP_initialRotationSpeed = "Rotation Speed";
+                    this.SP_initialRotationSpeedVariance = "Rotation Speed Variance";
                     this.SP_lifeSpan = "Lifespan (frame)";
                     this.SP_lifeSpanVariance = "Lifespan Variance (frame)";
                     this.SC_head_start = "Start Color";
