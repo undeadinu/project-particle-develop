@@ -85,6 +85,22 @@ declare module particlejs {
      */
     initialDirection:number;
     /**
+     * 開始時の回転角度です。
+     */
+    initialRotation: number;
+    /**
+     * 開始時の回転角度のばらつきです。
+     */
+    initialRotationVariance: number;
+    /**
+     * 開始時の回転スピードです。
+     */
+    initialRotationSpeed: number;
+    /**
+     * 開始時の回転スピードのばらつきです。
+     */
+    initialRotationSpeedVariance: number;
+    /**
      * 初期速度 - 方向のばらつき (度)です。
      */
     initialDirectionVariance:number;
@@ -196,6 +212,16 @@ declare module particlejs {
     initialDirection:number;
     /** 初期速度 - 方向のばらつき (度)です。 */
     initialDirectionVariance:number;
+    /** 回転計算の種類です。 */
+    rotationMode: number;
+    /** 初期回転角度（度）です。 */
+    initialRotation: number;
+    /** 初期回転角度（度）のばらつきです。 */
+    initialRotationVariance: number;
+    /** 初期回転速度 (度)です。 */
+    initialRotationSpeed: number;
+    /** 初期回転速度のばらつきです。 */
+    initialRotationSpeedVariance: number;
     /** 初期速度 (px)です。 */
     initialSpeed:number;
     /** 初期速度のばらつきです。 */
