@@ -18,6 +18,7 @@ export class ParticleParameter {
     this.list.push(this.setting10);
     this.list.push(this.setting1);
     this.list.push(this.setting11);
+    this.list.push(this.setting12);
   }
 
   private setting0 = {
@@ -155,4 +156,57 @@ export class ParticleParameter {
     imageId : "light_ball",
     property : {"bgColor":"#00000","width":460,"height":460,"emitFrequency":"100","startX":230,"startXVariance":0,"startY":231,"startYVariance":0,"initialDirection":0,"initialDirectionVariance":"360","initialSpeed":8.5,"initialSpeedVariance":0.1,"friction":"0.063","accelerationSpeed":0,"accelerationDirection":"275.8","startScale":3,"startScaleVariance":0,"finishScale":"2","finishScaleVariance":"0","lifeSpan":29,"lifeSpanVariance":"27","startAlpha":"1","startAlphaVariance":"0","finishAlpha":"0","finishAlphaVariance":"0","shapeIdList":["blur_circle"],"startColor":{"hue":37,"hueVariance":360,"saturation":"91","saturationVariance":0,"luminance":"56","luminanceVariance":"16"},"blendMode":true,"alphaCurveType":"0"}
   };
+
+  private setting12 = {
+    name : "sakura",
+    description : "舞い散る桜",
+    imageId : "none",
+    property : {
+      "bgColor": "#00000",
+      "width": 465,
+      "height": 465,
+      "emitFrequency": 55,
+      "startX": 646,
+      "startXVariance": 150,
+      "startY": 10,
+      "startYVariance": 65,
+      "initialDirection": 159.5,
+      "initialDirectionVariance": 49,
+      "initialSpeed": 5,
+      "initialSpeedVariance": 0.5,
+      "rotationMode": 0,
+      "initialRotation": 0,
+      "initialRotationVariance": 0,
+      "initialRotationSpeed": 0,
+      "initialRotationSpeedVariance": 0,
+      "friction": 0,
+      "accelerationSpeed": 0.046,
+      "accelerationDirection": 162.6,
+      "startScale": 0.28,
+      "startScaleVariance": 0.05,
+      "finishScale": "0.3",
+      "finishScaleVariance": "0",
+      "lifeSpan": "63",
+      "lifeSpanVariance": "500",
+      "startAlpha": 0.85,
+      "startAlphaVariance": "1",
+      "finishAlpha": 0.71,
+      "finishAlphaVariance": "0",
+      "shapeIdList": [
+        "blur_circle",
+        "sakura"
+      ],
+      "startColor": {
+        "hue": "0",
+        "hueVariance": "101",
+        "saturation": 96,
+        "saturationVariance": "94",
+        "luminance": 76,
+        "luminanceVariance": 6
+      },
+      "blendMode": true,
+      "alphaCurveType": "0",
+      "VERSION": "0.1.3"
+    }
+  }
 }
